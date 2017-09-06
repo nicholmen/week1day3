@@ -24,7 +24,7 @@ function countLetters(str){
     // for this letter in the instancesOfEachLetter object.
     // If we do, we add 1 to it.  If we don't, we set it to 1.
 
-    if(letter in instancesOfEachLetter){
+    if (letter in instancesOfEachLetter){
       instancesOfEachLetter[letter] += 1;
     }else {
       instancesOfEachLetter[letter] = 1;
